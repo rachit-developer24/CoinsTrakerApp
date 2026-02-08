@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		92C65B3A2F324DA900DF0B1D /* CoinsPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinsPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C65B472F324DAA00DF0B1D /* CoinsPriceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinsPriceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C65B512F324DAA00DF0B1D /* CoinsPriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinsPriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C65B3A2F324DA900DF0B1D /* CoinPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C65B472F324DAA00DF0B1D /* CoinPriceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinPriceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C65B512F324DAA00DF0B1D /* CoinPriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinPriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		92C65B3C2F324DA900DF0B1D /* CoinsPriceTracker */ = {
+		92C65B3C2F324DA900DF0B1D /* CoinPriceTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoinsPriceTracker;
+			path = CoinPriceTracker;
 			sourceTree = "<group>";
 		};
 		92C65B4A2F324DAA00DF0B1D /* CoinsPriceTrackerTests */ = {
@@ -75,7 +75,7 @@
 		92C65B312F324DA900DF0B1D = {
 			isa = PBXGroup;
 			children = (
-				92C65B3C2F324DA900DF0B1D /* CoinsPriceTracker */,
+				92C65B3C2F324DA900DF0B1D /* CoinPriceTracker */,
 				92C65B4A2F324DAA00DF0B1D /* CoinsPriceTrackerTests */,
 				92C65B542F324DAA00DF0B1D /* CoinsPriceTrackerUITests */,
 				92C65B3B2F324DA900DF0B1D /* Products */,
@@ -85,9 +85,9 @@
 		92C65B3B2F324DA900DF0B1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92C65B3A2F324DA900DF0B1D /* CoinsPriceTracker.app */,
-				92C65B472F324DAA00DF0B1D /* CoinsPriceTrackerTests.xctest */,
-				92C65B512F324DAA00DF0B1D /* CoinsPriceTrackerUITests.xctest */,
+				92C65B3A2F324DA900DF0B1D /* CoinPriceTracker.app */,
+				92C65B472F324DAA00DF0B1D /* CoinPriceTrackerTests.xctest */,
+				92C65B512F324DAA00DF0B1D /* CoinPriceTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92C65B392F324DA900DF0B1D /* CoinsPriceTracker */ = {
+		92C65B392F324DA900DF0B1D /* CoinPriceTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92C65B5B2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinsPriceTracker" */;
+			buildConfigurationList = 92C65B5B2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinPriceTracker" */;
 			buildPhases = (
 				92C65B362F324DA900DF0B1D /* Sources */,
 				92C65B372F324DA900DF0B1D /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				92C65B3C2F324DA900DF0B1D /* CoinsPriceTracker */,
+				92C65B3C2F324DA900DF0B1D /* CoinPriceTracker */,
 			);
-			name = CoinsPriceTracker;
+			name = CoinPriceTracker;
 			packageProductDependencies = (
 			);
 			productName = CoinsPriceTracker;
-			productReference = 92C65B3A2F324DA900DF0B1D /* CoinsPriceTracker.app */;
+			productReference = 92C65B3A2F324DA900DF0B1D /* CoinPriceTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		92C65B462F324DAA00DF0B1D /* CoinsPriceTrackerTests */ = {
+		92C65B462F324DAA00DF0B1D /* CoinPriceTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92C65B5E2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinsPriceTrackerTests" */;
+			buildConfigurationList = 92C65B5E2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinPriceTrackerTests" */;
 			buildPhases = (
 				92C65B432F324DAA00DF0B1D /* Sources */,
 				92C65B442F324DAA00DF0B1D /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				92C65B4A2F324DAA00DF0B1D /* CoinsPriceTrackerTests */,
 			);
-			name = CoinsPriceTrackerTests;
+			name = CoinPriceTrackerTests;
 			packageProductDependencies = (
 			);
 			productName = CoinsPriceTrackerTests;
-			productReference = 92C65B472F324DAA00DF0B1D /* CoinsPriceTrackerTests.xctest */;
+			productReference = 92C65B472F324DAA00DF0B1D /* CoinPriceTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		92C65B502F324DAA00DF0B1D /* CoinsPriceTrackerUITests */ = {
+		92C65B502F324DAA00DF0B1D /* CoinPriceTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92C65B612F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinsPriceTrackerUITests" */;
+			buildConfigurationList = 92C65B612F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinPriceTrackerUITests" */;
 			buildPhases = (
 				92C65B4D2F324DAA00DF0B1D /* Sources */,
 				92C65B4E2F324DAA00DF0B1D /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				92C65B542F324DAA00DF0B1D /* CoinsPriceTrackerUITests */,
 			);
-			name = CoinsPriceTrackerUITests;
+			name = CoinPriceTrackerUITests;
 			packageProductDependencies = (
 			);
 			productName = CoinsPriceTrackerUITests;
-			productReference = 92C65B512F324DAA00DF0B1D /* CoinsPriceTrackerUITests.xctest */;
+			productReference = 92C65B512F324DAA00DF0B1D /* CoinPriceTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92C65B352F324DA900DF0B1D /* Build configuration list for PBXProject "CoinsPriceTracker" */;
+			buildConfigurationList = 92C65B352F324DA900DF0B1D /* Build configuration list for PBXProject "CoinPriceTracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92C65B392F324DA900DF0B1D /* CoinsPriceTracker */,
-				92C65B462F324DAA00DF0B1D /* CoinsPriceTrackerTests */,
-				92C65B502F324DAA00DF0B1D /* CoinsPriceTrackerUITests */,
+				92C65B392F324DA900DF0B1D /* CoinPriceTracker */,
+				92C65B462F324DAA00DF0B1D /* CoinPriceTrackerTests */,
+				92C65B502F324DAA00DF0B1D /* CoinPriceTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		92C65B492F324DAA00DF0B1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92C65B392F324DA900DF0B1D /* CoinsPriceTracker */;
+			target = 92C65B392F324DA900DF0B1D /* CoinPriceTracker */;
 			targetProxy = 92C65B482F324DAA00DF0B1D /* PBXContainerItemProxy */;
 		};
 		92C65B532F324DAA00DF0B1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 92C65B392F324DA900DF0B1D /* CoinsPriceTracker */;
+			target = 92C65B392F324DA900DF0B1D /* CoinPriceTracker */;
 			targetProxy = 92C65B522F324DAA00DF0B1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,7 +467,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinsPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinsPriceTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinPriceTracker";
 			};
 			name = Debug;
 		};
@@ -488,7 +488,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinsPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinsPriceTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CoinPriceTracker";
 			};
 			name = Release;
 		};
@@ -533,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92C65B352F324DA900DF0B1D /* Build configuration list for PBXProject "CoinsPriceTracker" */ = {
+		92C65B352F324DA900DF0B1D /* Build configuration list for PBXProject "CoinPriceTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C65B592F324DAA00DF0B1D /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92C65B5B2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinsPriceTracker" */ = {
+		92C65B5B2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinPriceTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C65B5C2F324DAA00DF0B1D /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92C65B5E2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinsPriceTrackerTests" */ = {
+		92C65B5E2F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinPriceTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C65B5F2F324DAA00DF0B1D /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92C65B612F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinsPriceTrackerUITests" */ = {
+		92C65B612F324DAA00DF0B1D /* Build configuration list for PBXNativeTarget "CoinPriceTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92C65B622F324DAA00DF0B1D /* Debug */,
