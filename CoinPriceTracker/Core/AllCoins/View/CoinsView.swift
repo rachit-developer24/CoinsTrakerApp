@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct CoinsView: View {
-    @StateObject var coinsViewModel = CoinsViewModel()
+    @StateObject var coinsViewModel:CoinsViewModel
+    let service:CoinsServiceProtocol
+    init(service: CoinsServiceProtocol) {
+        self.service = service
+        _coinsViewModel = StateObject(wrappedValue: CoinsViewModel(service: service))
+    }
     var body: some View {
         NavigationStack {
             VStack {
@@ -46,7 +51,7 @@ struct CoinsView: View {
             }
             
             .navigationDestination(for: Coin.self) { coins in
-                CoinDetailView(coin: coins)
+                CoinDetailView(coin: coins, service:service)
             }
         }
         .task{
@@ -58,5 +63,5 @@ struct CoinsView: View {
 
 
 #Preview {
-    CoinsView()
+    CoinsView(service:CoinsService())
 }

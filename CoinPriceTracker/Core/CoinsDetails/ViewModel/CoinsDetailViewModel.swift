@@ -12,10 +12,12 @@ class CoinsDetailViewModel:ObservableObject{
     @Published var error:CoinsApiError?
     @Published var isloding:Bool = false
     let coinId:String
-    let service = CoinsService()
-    init(coinId:String){
+    let service:CoinsServiceProtocol
+    init(coinId:String,service:CoinsServiceProtocol){
         self.coinId = coinId
+        self.service = service
     }
+   
     func fetchCoinsDetail()async {
         isloding = true
         defer {

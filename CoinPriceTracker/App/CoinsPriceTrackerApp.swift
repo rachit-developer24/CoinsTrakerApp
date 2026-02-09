@@ -11,7 +11,7 @@ import SwiftUI
 struct CoinsPriceTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            CoinsView()
+            CoinsView(service:CoinsService())
         }
     }
 }

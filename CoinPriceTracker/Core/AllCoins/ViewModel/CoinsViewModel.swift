@@ -13,7 +13,10 @@ class CoinsViewModel:ObservableObject{
     @Published var coins: [Coin] = []
     @Published var error: CoinsApiError?
     @Published var contentLoadingState: ContentLoadingState = .loading
-    let service = CoinsService()
+    let service:CoinsServiceProtocol
+    init(service:CoinsServiceProtocol){
+        self.service = service
+    }
    
     func fetchCoins()async{
         do{

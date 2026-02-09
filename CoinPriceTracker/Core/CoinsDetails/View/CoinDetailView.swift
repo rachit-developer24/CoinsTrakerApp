@@ -9,9 +9,9 @@ import SwiftUI
 struct CoinDetailView: View {
     let coin:Coin
     @ObservedObject var viewModel:CoinsDetailViewModel
-    init(coin: Coin) {
+    init(coin: Coin, service: CoinsServiceProtocol) {
         self.coin = coin
-        _viewModel = ObservedObject(wrappedValue: CoinsDetailViewModel(coinId: coin.id))
+        _viewModel = ObservedObject(wrappedValue: CoinsDetailViewModel(coinId: coin.id, service: service))
     }
     var body: some View {
         VStack{
