@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+@MainActor
 class CoinsDetailViewModel:ObservableObject{
     @Published var CoinsDetails:CoinDetails?
     @Published var error:CoinsApiError?

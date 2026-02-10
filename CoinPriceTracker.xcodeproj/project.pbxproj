@@ -29,15 +29,33 @@
 		92C65B512F324DAA00DF0B1D /* CoinPriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinPriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		92D926B92F3A4EEF00C2244B /* Exceptions for "CoinPriceTracker" folder in "CoinPriceTrackerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/Tests/CoinsPriceTrackerTests.swift,
+				Core/Tests/CoinsViewModelTests.swift,
+			);
+			target = 92C65B462F324DAA00DF0B1D /* CoinPriceTrackerTests */;
+		};
+		92D926BA2F3A4F2100C2244B /* Exceptions for "CoinPriceTracker" folder in "CoinPriceTracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/Tests/CoinsPriceTrackerTests.swift,
+				Core/Tests/CoinsViewModelTests.swift,
+			);
+			target = 92C65B392F324DA900DF0B1D /* CoinPriceTracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		92C65B3C2F324DA900DF0B1D /* CoinPriceTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				92D926BA2F3A4F2100C2244B /* Exceptions for "CoinPriceTracker" folder in "CoinPriceTracker" target */,
+				92D926B92F3A4EEF00C2244B /* Exceptions for "CoinPriceTracker" folder in "CoinPriceTrackerTests" target */,
+			);
 			path = CoinPriceTracker;
-			sourceTree = "<group>";
-		};
-		92C65B4A2F324DAA00DF0B1D /* CoinsPriceTrackerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CoinsPriceTrackerTests;
 			sourceTree = "<group>";
 		};
 		92C65B542F324DAA00DF0B1D /* CoinsPriceTrackerUITests */ = {
@@ -76,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				92C65B3C2F324DA900DF0B1D /* CoinPriceTracker */,
-				92C65B4A2F324DAA00DF0B1D /* CoinsPriceTrackerTests */,
 				92C65B542F324DAA00DF0B1D /* CoinsPriceTrackerUITests */,
 				92C65B3B2F324DA900DF0B1D /* Products */,
 			);
@@ -129,9 +146,6 @@
 			);
 			dependencies = (
 				92C65B492F324DAA00DF0B1D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				92C65B4A2F324DAA00DF0B1D /* CoinsPriceTrackerTests */,
 			);
 			name = CoinPriceTrackerTests;
 			packageProductDependencies = (

@@ -24,11 +24,9 @@ class CoinsViewModel:ObservableObject{
             print("\(coins.count)")
             self.contentLoadingState = coins.isEmpty ? .empty : .complete
         }catch let  error as CoinsApiError{
-            print("Debug:error is found \(error.customDescription)")
             self.error = error
             self.contentLoadingState = .error
         }catch{
-            print("Debug:error is found \(error)")
             self.error = .unknownError(error: error)
             self.contentLoadingState = .error
         }
