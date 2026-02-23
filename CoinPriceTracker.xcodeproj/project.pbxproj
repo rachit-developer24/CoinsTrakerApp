@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		92648A062F414F3A00C3BE92 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 92648A052F414F3A00C3BE92 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		92C65B482F324DAA00DF0B1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92648A062F414F3A00C3BE92 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +134,7 @@
 			);
 			name = CoinPriceTracker;
 			packageProductDependencies = (
+				92648A052F414F3A00C3BE92 /* Kingfisher */,
 			);
 			productName = CoinsPriceTracker;
 			productReference = 92C65B3A2F324DA900DF0B1D /* CoinPriceTracker.app */;
@@ -209,6 +215,9 @@
 			);
 			mainGroup = 92C65B312F324DA900DF0B1D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				92648A042F414F3A00C3BE92 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 92C65B3B2F324DA900DF0B1D /* Products */;
 			projectDirPath = "";
@@ -584,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92648A042F414F3A00C3BE92 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92648A052F414F3A00C3BE92 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92648A042F414F3A00C3BE92 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92C65B322F324DA900DF0B1D /* Project object */;
 }

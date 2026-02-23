@@ -12,7 +12,12 @@ protocol CoinsServiceProtocol{
 }
 
 class CoinsService:HttpDataDownloader,CoinsServiceProtocol{
+    
+    private var page = 0
+    private var fetchLimit = 55
+    
     func fetchCoins()async throws -> [Coin]{
+        page = page + 1
         guard let endpoint = allCoinsUrlString else{
             throw CoinsApiError.invalidUrl
         }
@@ -49,8 +54,8 @@ class CoinsService:HttpDataDownloader,CoinsServiceProtocol{
         components.queryItems = [
             .init(name: "vs_currency", value: "usd"),
             .init(name: "order", value: "market_cap_desc"),
-            .init(name: "per_page", value: "100"),
-            .init(name: "page", value: "1"),
+            .init(name: "per_page", value: "\(fetchLimit)"),
+            .init(name: "page", value: "\(page)"),
             .init(name: "price_change_percentage", value: "24h"),
         ]
         return components.url?.absoluteString

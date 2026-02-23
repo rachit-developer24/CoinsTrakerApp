@@ -14,7 +14,7 @@ final class CoinsViewModelTests: XCTestCase {
 
     @MainActor
     override func tearDown() {
-        viewModel = nil          // ✅ dealloc happens on MainActor
+        viewModel = nil          
         super.tearDown()
     }
 
